@@ -6,7 +6,7 @@ Data Science work.
 
 This python code uses the python library scrapy, docs are here - [https://doc.scrapy.org/en/latest/](https://doc.scrapy.org/en/latest/)  
 
-To run the scraping algorithm, navigate to ../digital_scraper and run the following command. This will save the data to the csv `csv_name.csv`.  
+To run the scraping algorithm on the whole site, navigate to ../digital_scraper and run the following command. This will save the data to the csv `csv_name.csv`.  
 
     $ scrapy crawl digital_scraper -o csv_name.csv -t csv  
 
